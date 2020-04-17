@@ -1,0 +1,12 @@
+GET http://localhost:3333/transactions
+
+
+###
+POST http://localhost:3333/transactions
+content-type: application/json
+
+{
+  "title": "water",
+  "value": 9900,
+  "type": "outcome"
+}
